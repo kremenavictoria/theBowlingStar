@@ -9,4 +9,5 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(glue={"com.tau.steps"}, features = "src/test/resources", plugin = { "pretty", "html:target/site/cucumber-pretty",
 		"json:target/cucumber.json" })
 public class RunCucumberTests {
+
 }
